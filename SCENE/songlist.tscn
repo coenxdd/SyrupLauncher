@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://o5rwfgj6ch1h"]
+
+[ext_resource type="Script" uid="uid://cwibqufbvsmi5" path="res://SCRIPT/home/songlist-song.gd" id="1_d67st"]
+[ext_resource type="Theme" uid="uid://dspsgo0mydjuj" path="res://SCENE/theme.tres" id="1_eysa7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eysa7"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 22
+border_color = Color(0.254902, 0.254902, 0.254902, 0)
+
+[node name="TempName" type="Button"]
+custom_minimum_size = Vector2(413, 50)
+theme = ExtResource("1_eysa7")
+theme_override_constants/icon_max_width = 45
+theme_override_styles/normal = SubResource("StyleBoxFlat_eysa7")
+text = "null"
+alignment = 0
+text_overrun_behavior = 4
+autowrap_mode = 3
+clip_text = true
+expand_icon = true
+script = ExtResource("1_d67st")
+SongID = null
+SongName = null
+SongArtist = null
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

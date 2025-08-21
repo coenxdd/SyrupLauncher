@@ -1,0 +1,65 @@
+[gd_resource type="Theme" load_steps=15 format=3 uid="uid://dspsgo0mydjuj"]
+
+[ext_resource type="FontFile" uid="uid://5pw52pus3pq3" path="res://Assets/Font/SegoePro-Regular.ttf" id="1_buqw4"]
+[ext_resource type="FontFile" uid="uid://djo461ggyjp3n" path="res://Assets/Font/segoeui.ttf" id="1_exarf"]
+
+[sub_resource type="Gradient" id="Gradient_exarf"]
+colors = PackedColorArray(0, 0.564706, 0, 1, 0, 0.686168, 0.0579691, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_0iux3"]
+gradient = SubResource("Gradient_exarf")
+fill_from = Vector2(0, 1)
+fill_to = Vector2(0, 0.027439)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k0nkb"]
+texture = SubResource("GradientTexture2D_0iux3")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_iuum6"]
+texture = SubResource("GradientTexture2D_0iux3")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k0nkb"]
+bg_color = Color(0.509804, 0.509804, 0.509804, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.509804, 0.509804, 0.509804, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mlo3j"]
+texture = SubResource("GradientTexture2D_0iux3")
+
+[sub_resource type="Gradient" id="Gradient_buqw4"]
+colors = PackedColorArray(0.566967, 0.566967, 0.566967, 1, 0.819655, 0.819655, 0.819655, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_exarf"]
+gradient = SubResource("Gradient_buqw4")
+fill_from = Vector2(0, 1)
+fill_to = Vector2(0, 0.0335366)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0iux3"]
+texture = SubResource("GradientTexture2D_exarf")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_exarf"]
+bg_color = Color(0.450648, 0.450648, 0.450648, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_k0nkb"]
+gradient = SubResource("Gradient_exarf")
+fill_from = Vector2(0, 1)
+fill_to = Vector2(0, 0.027439)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_uuf3a"]
+texture = SubResource("GradientTexture2D_k0nkb")
+
+[resource]
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/colors/font_focus_color = Color(0.95, 0.95, 0.95, 1)
+Button/colors/font_hover_color = Color(0.95, 0.95, 0.95, 1)
+Button/fonts/font = ExtResource("1_exarf")
+Button/styles/focus = SubResource("StyleBoxTexture_k0nkb")
+Button/styles/hover = SubResource("StyleBoxTexture_iuum6")
+Button/styles/normal = SubResource("StyleBoxFlat_k0nkb")
+Button/styles/pressed = SubResource("StyleBoxTexture_mlo3j")
+Panel/styles/panel = SubResource("StyleBoxTexture_0iux3")
+ProgressBar/fonts/font = ExtResource("1_buqw4")
+ProgressBar/styles/background = SubResource("StyleBoxFlat_exarf")
+ProgressBar/styles/fill = SubResource("StyleBoxTexture_uuf3a")
