@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://di2uqwnaeysj7"
+path="res://.godot/imported/Select A (Alt).mp3-bcdc53e44e2e728333abd334a1e3f14d.mp3str"
+
+[deps]
+
+source_file="res://Assets/sfx/Select A (Alt).mp3"
+dest_files=["res://.godot/imported/Select A (Alt).mp3-bcdc53e44e2e728333abd334a1e3f14d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

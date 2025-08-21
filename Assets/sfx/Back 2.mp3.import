@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b7oem5xlhu6ox"
+path="res://.godot/imported/Back 2.mp3-63ad2a7b15ce875a36f313ac519558a8.mp3str"
+
+[deps]
+
+source_file="res://Assets/sfx/Back 2.mp3"
+dest_files=["res://.godot/imported/Back 2.mp3-63ad2a7b15ce875a36f313ac519558a8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
